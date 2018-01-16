@@ -9,9 +9,15 @@ Este producto es parte de la finalización del **Common Core** de **Laboratoria*
   - Nos dieron las siguientes [instrucciones](https://bit.ly/hackathon-1).
   - En el grupo identificamos las posibles UX y las posibles FrontEnd.
   
-  08am a 09am: Ideas
+  * 08am a 09am: Ideas.
+  * 09am a 11am: Buscar información según especialidad.
+  * 11am a 1pm: Hacer scketching y buscar información de cómo acceder a la data de la APIOMDb.
 
-  09am a 11am: Buscar información según especialidad.
+### Algunas Fotos del Proceso:
+![Ideas](assets/images/dia01/ideas.jpg "ideas")
+![Scketching-01](assets/images/dia01/maqueta01.jpg "01")
+![Scketching-02](assets/images/dia01/maqueta02.jpg "02")
+![Scketching-03](assets/images/dia01/maqueta05.jpg "03")
 
 
 * Día 02: 17/01/17
