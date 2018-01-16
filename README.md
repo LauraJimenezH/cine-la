@@ -15,9 +15,9 @@ Este producto es parte de la finalización del **Common Core** de **Laboratoria*
 
 ### Algunas Fotos del Proceso:
 ![Ideas](assets/images/dia01/ideas.jpg "ideas")
+![Scketching-03](assets/images/dia01/datos-cine-latino.jpg "datos del cine latinoamericano")
 ![Scketching-01](assets/images/dia01/maqueta01.jpg "01")
 ![Scketching-02](assets/images/dia01/maqueta02.jpg "02")
-![Scketching-03](assets/images/dia01/maqueta05.jpg "03")
 
 
 * Día 02: 17/01/17
