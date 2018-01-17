@@ -8,29 +8,47 @@ Este producto es parte de la finalización del **Common Core** de **Laboratoria*
 * Día 01: 16/01/17
   - Nos dieron las siguientes [instrucciones](https://bit.ly/hackathon-1).
   - En el grupo identificamos las posibles UX y las posibles FrontEnd.
-  
+
   * 08am a 09am: Ideas.
   * 09am a 11am: Buscar información según especialidad.
   * 11am a 1pm: Hacer scketching y buscar información de cómo acceder a la data de la APIOMDb.
 
 ### Algunas Fotos del Proceso:
-![Ideas](assets/images/dia01/ideas.jpg "ideas")
 ![Scketching-03](assets/images/dia01/datos-cine-latino.jpg "datos del cine latinoamericano")
-![Scketching-01](assets/images/dia01/maqueta01.jpg "01")
-![Scketching-02](assets/images/dia01/maqueta02.jpg "02")
+![Scketching-01](assets/images/dia01/maqueta01.jpg)
+![organización](assets/images/dia01/trabajando.jpg)
+
 
 
 * Día 02: 17/01/17
+- Hoy con mas busqueda modificamos en las ideas.
+- La eleccion del logo ya esta definido.
+![Logo](assets/images/dia02/logo-grande.jpg)
+-  Todo el dia: Nos hemos repartido por secciones el avance de maquetado entre las 4.
+* 10:40: Dos chicas saldra a presentar el avance y de que trata nuestro producto.
+
+
+### Algunas Fotos del Proceso:
+![Scketching-02](assets/images/dia02/maquetado02.jpg )
+
+![Scketching-01](assets/images/dia02/maquetado03.jpg )
+
+![trabajando](assets/images/dia02/trabajando02.jpg )
+
+![trabajando](assets/images/dia02/trabajando03.jpg )
 * Día 03: 18/01/17
 * Día 04: 19/01/17
 
 ## Recursos Usados:
 
-* Páginas de referencias: 
+* Páginas de referencias:
 
   - https://www.filminlatino.mx/
   - https://www.retinalatina.org/
   - http://www.cinepata.com/
+  - http://developers.ocioavila.com/
+  - http://themoviedb.org/
+  - wwww.forodecine.com
 
 ### Realizado por:
 * Laura Jimenez
