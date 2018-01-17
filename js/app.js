@@ -4,6 +4,7 @@ $(document).ready(() => {
       getMovies(searchText);
       e.preventDefault();
     });
+
   });
   
   function getMovies(searchText){
