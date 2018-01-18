@@ -1,5 +1,5 @@
 .slider ul.indicators li.indicator-item.active {
-  background-color: #212121;
+  background-color: #00695c !important;
 }
 
 .slider ul.indicators li.indicator-item {
@@ -20,8 +20,8 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   border: none;
-  font: normal 76px/1 "bonbon", Helvetica, sans-serif;
   color: #212121;
+  font: normal 76px/1 "bonbon", Helvetica, sans-serif;
   text-align: center;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
@@ -215,29 +215,24 @@ footer.page-footer {
 
 
 /* Nuestro css*/
-
 .title {
-  margin-bottom: 0 !important ;
-  text-align: center;
+  margin-bottom: 0 !important;
 }
 
-.logo-cinela{
-  width: 280px;
-  margin-top: 0%;
-  height: 60px;
-  margin-left: -25%;
+.logo-cinela {
+  width: 50%;
 }
-nav .nav-wrapper{
-  height: 91.9px;
+
+.nav-index {
+  height: 130px;
 }
 
 #portada {
-  height: 520px;
+  height: 320px;
   width: 100%;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: black;
+  background-image: url('../assets/images/portada.jpg');
+  background-size: cover;
+  background-position: 10%;
 }
 
 #portada h3 {
@@ -248,16 +243,12 @@ body .row {
   margin-bottom: 0px;
 }
 
-.btn-sign a {
-  width: 100%;
+.icons-footer .fa {
+  font-size: 35px;
+  color: white;
+  margin-top: 50%;
 }
 
-#img-user {
-  width: 55px;
-  border-radius: 100px;
-  margin-top: 5px;
-}
-
-nav {
-  z-index: 9999;
+.icons-footer .fa:hover {
+  color: #00695c;
 }

@@ -14,8 +14,6 @@
   <!--CSS-->
   <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="vendors/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="vendors/plugins/plugin-min.css" type="text/css" rel="stylesheet">
-  <link href="vendors/plugins/custom-min.css" type="text/css" rel="stylesheet">
 
   <title>Cine-la</title>
 </head>
@@ -23,13 +21,12 @@
 <body>
   <!--Header-->
   <div class="row black title">
-    <!--Logo-->
-    <div class="col s12 m12">
-      <img class="logo-cinela" src="assets/images/logo-grande.jpg" alt="logo-grande">
-    </div>
-    <!--Menu-->
-    <nav class="black">
-      <div class="nav-wrapper">
+    <!--Logo y Menu-->
+    <nav class="row black nav-index">
+      <div class="col s6 m6 l6">
+        <img src="assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
+      </div>
+      <div class="col s6 m6 l6 nav-wrapper">
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
@@ -43,9 +40,6 @@
           <li>
             <a class="head-link" href="#sucription">Suscribirse</a>
           </li>
-          <li>
-            <a class="head-link" href="#contactus">Contáctanos</a>
-          </li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li>
@@ -56,9 +50,6 @@
           </li>
           <li>
             <a class="head-link" href="#sucription">Suscribirse</a>
-          </li>
-          <li>
-            <a class="head-link" href="#contactus">Contáctanos</a>
           </li>
         </ul>
       </div>
@@ -105,7 +96,7 @@
   <div id="home" class="container section scrollspy">
     <h6 class="center-align title-top">Más Populares</h6>
     <!--Cards Populares-->
-      <div class="row">
+    <div class="row">
       <!--card01-->
       <div class="col s12 m4">
         <div class="card z-depth-2">
@@ -155,8 +146,8 @@
         </div>
       </div>
       <!--card03-->
-      <div class="col s12 m4">
-        <div class="card z-depth-2">
+      <div class="col s12 m4 hoverable">
+        <div class="card z-depth-2 hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada03.jpg">
           </div>
@@ -180,7 +171,7 @@
         </div>
       </div>
     </div>
-    <div class="row">      
+    <div class="row">
       <!--card04-->
       <div class="col s12 m4">
         <div class="card z-depth-2">
@@ -199,7 +190,12 @@
             <span class="card-title grey-text text-darken-4">EL GRAN LEÓN
               <i class="material-icons right">close</i>
             </span>
-            <p>Ivana Cornejo, es una abogada divorciada y socia de su ex marido Diego en un estudio jurídico. Después de perder su celular recibe una llamada de León Godoy, quien encontró el teléfono y tiene la intención de devolvérselo. En la conversación telefónica se establece una gran empatía y ambos sienten un inmediato interés, por lo que coordinan encontrarse. El “problema” es que León mide 1,36 metros, por lo cual, a partir de ese encuentro, Ivana intenta superar esos centímetros que le faltan al hombre de su vida, enfrentando los prejuicios sociales y los propios.</p>
+            <p>Ivana Cornejo, es una abogada divorciada y socia de su ex marido Diego en un estudio jurídico. Después de perder
+              su celular recibe una llamada de León Godoy, quien encontró el teléfono y tiene la intención de devolvérselo.
+              En la conversación telefónica se establece una gran empatía y ambos sienten un inmediato interés, por lo que
+              coordinan encontrarse. El “problema” es que León mide 1,36 metros, por lo cual, a partir de ese encuentro,
+              Ivana intenta superar esos centímetros que le faltan al hombre de su vida, enfrentando los prejuicios sociales
+              y los propios.</p>
           </div>
         </div>
       </div>
@@ -221,7 +217,11 @@
             <span class="card-title grey-text text-darken-4">EL REGRESO DEL DEMONIO-3
               <i class="material-icons right">close</i>
             </span>
-            <p>Trish Jenner es ahora madre de un adolescente llamado Darry, en memoria del hermano que Trish perdió 23 años atrás. La mujer tiene la pesadilla recurrente de que su hijo tendrá el mismo destino a manos de “The Creeper”. Pero a diferencia de entonces ahora es rica y poderosa, y tratará de impedirlo. Por su parte Gaylen Brandon es una excéntrica y dotada Médium que lidera una tropa de sargentos, entre ellos Chris Brandon y Davis Tubbs con el fin de detener a la temible criatura de una vez por todas.</p>
+            <p>Trish Jenner es ahora madre de un adolescente llamado Darry, en memoria del hermano que Trish perdió 23 años
+              atrás. La mujer tiene la pesadilla recurrente de que su hijo tendrá el mismo destino a manos de “The Creeper”.
+              Pero a diferencia de entonces ahora es rica y poderosa, y tratará de impedirlo. Por su parte Gaylen Brandon
+              es una excéntrica y dotada Médium que lidera una tropa de sargentos, entre ellos Chris Brandon y Davis Tubbs
+              con el fin de detener a la temible criatura de una vez por todas.</p>
           </div>
         </div>
       </div>
@@ -243,11 +243,15 @@
             <span class="card-title grey-text text-darken-4">COCO
               <i class="material-icons right">close</i>
             </span>
-            <p>A pesar de la incomprensible prohibición de la música desde hace varias generaciones en su familia, Miguel sueña con convertirse en un músico consagrado, como su ídolo Ernesto de la Cruz. Desesperado por probar su talento, Miguel se encuentra en la impresionante y colorida Tierra de los Muertos como resultado de una misteriosa cadena de eventos. En el camino, encuentra al simpático timador Héctor, y juntos se embarcan en una extraordinaria travesía para develar la verdadera razón detrás de la historia familiar de Miguel.</p>
+            <p>A pesar de la incomprensible prohibición de la música desde hace varias generaciones en su familia, Miguel sueña
+              con convertirse en un músico consagrado, como su ídolo Ernesto de la Cruz. Desesperado por probar su talento,
+              Miguel se encuentra en la impresionante y colorida Tierra de los Muertos como resultado de una misteriosa cadena
+              de eventos. En el camino, encuentra al simpático timador Héctor, y juntos se embarcan en una extraordinaria
+              travesía para develar la verdadera razón detrás de la historia familiar de Miguel.</p>
           </div>
         </div>
       </div>
-    </div>    
+    </div>
     <!--Fin Cards Populares-->
   </div>
   <!--Fin Home-->
@@ -256,7 +260,7 @@
   <!--Sección Fans-->
   <div id="movies" class="section scrollspy">
     <div class="container">
-      <h6 class="movies">Movies</h6>
+      <h6 class="movies">Fans de Star Wars</h6>
       <br>
       <br>
       <!--card de películas-->
@@ -311,14 +315,13 @@
   <br>
   <br>
   <!--Parallaxx Effect-->
-  <div class="parallax-container section scrollspy valign-wrapper" id="aboutus">
+  <!-- <div class="parallax-container section scrollspy valign-wrapper" id="aboutus">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="center row col s3">
-
           <h3 class="aboutus white-text">About Us</h3>
         </div>
-        <div class="center row col s12 white-text" >
+        <div class="center row col s12 white-text">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -326,83 +329,73 @@
 
       </div>
     </div>
+  </div> -->
+  <div class="parallax-container">
     <div class="parallax">
-      <img src="https://user-images.githubusercontent.com/760010/26846941-4fc6b370-4ac9-11e7-8b43-5f7e42cb4ed8.png" alt="img">
+      <img src="https://user-images.githubusercontent.com/760010/26846941-4fc6b370-4ac9-11e7-8b43-5f7e42cb4ed8.png">
     </div>
   </div>
+  </div>
   <!--Fin Paralaxx Effect-->
+
   <br>
 
-  <!-- <div class="container section scrollspy" id="contactus">
-    <div>
-      <br>
-      <br>
-      <h2 class="center contactUs">Contact Us</h2>
-      <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        <br> tempor incididunt ut labore et dolore magna aliqua.</p>
+  <!--FOOTER-->
+  <footer class="page-footer black center-align">
+    <div class="container">
       <div class="row">
-
-        <form class="col s8 offset-s2">
-
-          <div class="row">
-            <div class="input-field col s6">
-              <input id="name" type="text" class="validate">
-              <label for="name">Your Name</label>
-            </div>
-
-            <div class="input-field col s6">
-              <input id="email" type="email" class="validate">
-              <label for="email">Your Email</label>
-            </div>
-          </div>          
-
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="message-sub" type="email" class="validate">
-              <label for="message-sub">Message Subject</label>
+        <div class="col s8 m8 l8">
+          <div class="container section scrollspy" id="contactus">
+            <div>
+              <!-- <h2 class="center contactUs">Contact Us</h2> -->
+              <div class="row">
+                <form class="">
+                  <div class="row">
+                    <div class="input-field col s6 m6 l6">
+                      <input id="name" type="text" class="validate white-text">
+                      <label for="name">Nombre</label>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                      <input id="email" type="email" class="validate white-text">
+                      <label for="email">Correo</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="text_area" class="materialize-textarea white-text"></textarea>
+                      <label for="text_area">Mensaje</label>
+                    </div>
+                  </div>
+                  <div>
+                    <a class="waves-effect waves-light btn teal darken-3">Send Message
+                      <i class="material-icons">send</i>
+                    </a>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea id="text_area" class="materialize-textarea"></textarea>
-              <label for="text_area">Your Message</label>
-            </div>
-          </div>
-
-          <div>
-            <a class="waves-effect waves-light btn purple lighten-1">Send Message
-              <i class="mdi-content-send right"></i>
+        </div>
+        <div class="col s4 m4 l4 valign-wrapper icons-footer">
+          <div class="icons">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a> &nbsp; &nbsp;
+            <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a> &nbsp; &nbsp;
+            <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
+              <i class="fa fa-google-plus"></i>
+            </a> &nbsp; &nbsp;
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
+              <i class="fa fa-linkedin"></i>
             </a>
           </div>
-        </form>
-      </div>
-    </div>
-  </div-->
-
-  <!--FOOTER-->
-  <footer class="page-footer black">
-    <div class="container ">
-      <div class="row">
-        <div class="col s6 offset-s4 ">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
-            <i class="fa fa-facebook" style="font-size: 35px; color:white;"></i>
-          </a> &nbsp; &nbsp;
-          <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
-            <i class="fa fa-twitter" style="font-size: 35px; color:white;"></i>
-          </a> &nbsp; &nbsp;
-          <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
-            <i class="fa fa-google-plus" style="font-size: 35px; color:white;"></i>
-          </a> &nbsp; &nbsp;
-          <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
-            <i class="fa fa-linkedin" style="font-size: 35px; color:white;"></i>
-          </a>
         </div>
+
       </div>
       <div class="footer-copyright">
-        <div class="container">Cine-La © 2018 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-        </div>
+        <p class="container">Cine-La © 2018 Copyright Text</p>
       </div>
   </footer>
   <!--FIN FOOTER-->
@@ -410,11 +403,9 @@
   <!--Import jQuery-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <!--Import JS-->
-  <script src="vendors/plugins/plugin-min.js"></script>
-  <script src="min/custom-min.js"></script>
   <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
   <script type="text/javascript" src="vendors/materialize/js/init.js"></script>
   <script src="js/app.js"></script>
-  <!-- <script src="js/app2.js"></script> -->
 </body>
+
 </html>
