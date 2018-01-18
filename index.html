@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Fuentes  -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
   <!-- <link rel="shortcut icon" href="images/favicon (5).ico" type="image/x-icon"> -->
   <!-- <link rel="icon" href="images/favicon (5).ico" type="image/x-icon"> -->
 
@@ -24,7 +26,9 @@
     <!--Logo y Menu-->
     <nav class="row black nav-index">
       <div class="col s6 m6 l6">
-        <img src="assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
+        <a href="#">
+          <img src="assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
+        </a> 
       </div>
       <div class="col s6 m6 l6 nav-wrapper">
         <a href="#" data-activates="mobile-demo" class="button-collapse">
@@ -55,7 +59,7 @@
       </div>
     </nav>
   </div>
-  <!--Slider-->
+  <!--Slider--><!--Modificar con data del api-->
   <div class="slider">
     <ul class="slides">
       <li>
@@ -92,14 +96,14 @@
   <!--Fin Slider-->
   <br>
   <br>
-  <!--Home-->
+  <!--Home---Jalar con data.js-->
   <div id="home" class="container section scrollspy">
     <h6 class="center-align title-top">Más Populares</h6>
     <!--Cards Populares-->
     <div class="row">
       <!--card01-->
       <div class="col s12 m4">
-        <div class="card z-depth-2">
+        <div class="card large z-depth-2">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada01.jpg">
           </div>
@@ -123,7 +127,7 @@
       </div>
       <!--card02-->
       <div class="col s12 m4">
-        <div class="card z-depth-2">
+        <div class="card large z-depth-2">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada02.jpg">
           </div>
@@ -147,7 +151,7 @@
       </div>
       <!--card03-->
       <div class="col s12 m4 hoverable">
-        <div class="card z-depth-2 hoverable">
+        <div class="card large z-depth-2 hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada03.jpg">
           </div>
@@ -174,7 +178,7 @@
     <div class="row">
       <!--card04-->
       <div class="col s12 m4">
-        <div class="card z-depth-2">
+        <div class="card large z-depth-2">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada04.jpg">
           </div>
@@ -201,7 +205,7 @@
       </div>
       <!--card05-->
       <div class="col s12 m4">
-        <div class="card z-depth-2">
+        <div class="card large z-depth-2">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada05.jpg">
           </div>
@@ -227,7 +231,7 @@
       </div>
       <!--card06-->
       <div class="col s12 m4">
-        <div class="card z-depth-2">
+        <div class="card large z-depth-2">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="assets/images/portada06.png">
           </div>
@@ -257,126 +261,66 @@
   <!--Fin Home-->
   <br>
   <br>
-  <!--Sección Fans-->
-  <div id="movies" class="section scrollspy">
+  <!--Sección Fans-JAlar con data de la APi-->
+  <div id="movies" class="section scrollspy section-fans">
     <div class="container">
       <h6 class="movies">Fans de Star Wars</h6>
       <br>
       <br>
       <!--card de películas-->
-      <div class="row">
-        <!--Película 01-->
-        <div class="col s12 m4">
-          <ul class="demo-3">
-            <li>
-              <figure>
-                <img src="" class="responsive-img" alt="" />
-                <figcaption>
-                  <h2>Película 01</h2>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
+      
+      <div class="content-all">
+          <div class="content-carrousel">
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+            <figure>
+              <img src="">
+            </figure>
+          </div>
         </div>
-        <!--Película 02-->
-        <div class="col s12 m4">
-          <ul class="demo-3">
-            <li>
-              <figure>
-                <img src="" class="responsive-img" alt="" />
-                <figcaption>
-                  <h2>Project title</h2>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </div>
-        <!--Película 03-->
-        <div class="col s12 m4">
-
-          <ul class="demo-3">
-            <li>
-              <figure>
-                <img src="images/project3.jpg" class="responsive-img" alt="" />
-                <figcaption>
-                  <h2>Project title</h2>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="center">
-        <a class="waves-effect waves-light btn black">Más, mucho más...</a>
-      </div>
     </div>
   </div>
   <!--Fin Sección Fans-->
-  <br>
-  <br>
-  <!--Parallaxx Effect-->
-  <!-- <div class="parallax-container section scrollspy valign-wrapper" id="aboutus">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="center row col s3">
-          <h3 class="aboutus white-text">About Us</h3>
-        </div>
-        <div class="center row col s12 white-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-        </div>
-
-      </div>
-    </div>
-  </div> -->
-  <div class="parallax-container">
-    <div class="parallax">
-      <img src="https://user-images.githubusercontent.com/760010/26846941-4fc6b370-4ac9-11e7-8b43-5f7e42cb4ed8.png">
-    </div>
-  </div>
-  </div>
-  <!--Fin Paralaxx Effect-->
-
-  <br>
-
+  
   <!--FOOTER-->
-  <footer class="page-footer black center-align">
+  <footer class="section page-footer black center-align">
     <div class="container">
       <div class="row">
-        <div class="col s8 m8 l8">
-          <div class="container section scrollspy" id="contactus">
-            <div>
-              <!-- <h2 class="center contactUs">Contact Us</h2> -->
-              <div class="row">
-                <form class="">
-                  <div class="row">
-                    <div class="input-field col s6 m6 l6">
-                      <input id="name" type="text" class="validate white-text">
-                      <label for="name">Nombre</label>
-                    </div>
-                    <div class="input-field col s6 m6 l6">
-                      <input id="email" type="email" class="validate white-text">
-                      <label for="email">Correo</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <textarea id="text_area" class="materialize-textarea white-text"></textarea>
-                      <label for="text_area">Mensaje</label>
-                    </div>
-                  </div>
-                  <div>
-                    <a class="waves-effect waves-light btn teal darken-3">Send Message
-                      <i class="material-icons">send</i>
-                    </a>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div class="col s6 m6 l6">
+          <div class="container section scrollspy" id="about-us">
+            <a href="#"><img src="assets/images/logo-grande.jpg" alt="logo-cinela" class="logo-cinela"></a>
+            <p class="row white-text">
+              Plataforma web de búsqueda de películas de todos los tiempos.
+            </p>
+            <h5 class="row white-text footer-text">Hecha por Laboratorians</h5>
           </div>
         </div>
-        <div class="col s4 m4 l4 valign-wrapper icons-footer">
+        <div class="col s6 m6 l6 icons-footer">
           <div class="icons">
             <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
               <i class="fa fa-facebook"></i>
