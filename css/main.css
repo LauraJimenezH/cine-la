@@ -8,6 +8,7 @@
 
 .nav-wrapper ul li {
   display: inline-block;
+  padding: 0px 35px;
 }
 
 .nav-wrapper {
@@ -218,4 +219,24 @@ footer.page-footer {
 .title {
   margin-bottom: 0 !important ;
   text-align: center;
+}
+
+.logo-cinela {
+  height: 90px;
+}
+
+#portada {
+  height: 320px;
+  width: 100%;
+  background-image: url('../assets/images/portada.jpg');
+  background-size: cover;
+  background-position: 10%;
+}
+
+#portada h3 {
+  display: block;
+}
+
+body .row {
+  margin-bottom: 0px;
 }
