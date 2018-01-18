@@ -10,78 +10,77 @@
     <!-- <link rel="icon" href="images/favicon (5).ico" type="image/x-icon"> -->
 
     <!--CSS-->
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="vendors/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../vendors/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../vendors/plugins/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="../vendors/plugins/custom-min.css" type="text/css" rel="stylesheet">
 
     <title>Cine-la</title>
 </head>
 
 <body>
 
-    <div class="row black darken-4" style="margin: 0px;text-align: center;">
-        <div class="col s12 m12">
-            <img class='logo-cinela' src="assets/images/logo-grande.jpg" alt="logo">
-        </div>
-    </div>
-
-    <nav class="black darken-3 row">
+    <nav class="black">
         <div class="nav-wrapper">
-            <a href="#" data-activates="mobile-demo" class="button-collapse">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="col l6 offset-l3 hide-on-med-and-down">
-                <li>
-                    <a class="head-link" href="#ourTeam">Team</a>
+            <img class="logo-cinela" src="../assets/images/logo-grande.jpg" alt="logo-grande">
+          <a href="#" data-activates="mobile-demo" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a class="head-link" href="#home">Inicio</a>
+            </li>
+            <li>
+              <a class="head-link" href="#movies">Películas</a>
+            </li>
+            <li>
+              <a class="head-link" href="#sucription">Suscribirse</a>
+            </li>
+            <li>
+              <a class="head-link" href="#contactus">Contáctanos</a>
+            </li>
+            <li>
+                    <img id="img-user" class="col l2 offset-l10" src='../assets/images/user.jpg'>
+                
                 </li>
-                <li>
-                    <a class="head-link" href="#ourProjectss">Projects</a>
-                </li>
-                <li>
-                    <a class="head-link" href="#aboutus">About us</a>
-                </li>
-                <li>
-                    <a class="head-link" href="#contactus">Contact us</a>
-                </li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li>
-                    <a class="head-link" href="#ourTeam">Team</a>
-                </li>
-                <li>
-                    <a class="head-link" href="#ourProjectss">Projects</a>
-                </li>
-                <li>
-                    <a class="head-link" href="#aboutus">About us</a>
-                </li>
-                <li>
-                    <a class="head-link" href="#contactus">Contact us</a>
-                </li>
-            </ul>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li>
+              <a class="head-link" href="#home">Inicio</a>
+            </li>
+            <li>
+              <a class="head-link" href="#movies">Películas</a>
+            </li>
+            <li>
+              <a class="head-link" href="#sucription">Suscribirse</a>
+            </li>
+            <li>
+              <a class="head-link" href="#contactus">Contáctanos</a>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="col l1">
+                <img id="img-user" src='../assets/images/user.jpg'>
+            </div>
+            </div>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <div>
-            <div class="section no-pad-bot" id="index-banner">
-                    <div class="container">
-                        <h1 class="text_h center header cd-headline letters type">
-                            <span>I Love</span> 
-                            <span class="cd-words-wrapper waiting">
-                                <b class="is-visible">creating</b>
-                                <b>designing</b>
-                                <b>developing</b>
-                            </span>
-                        </h1>
-                    </div>
-                </div>
-    </div>
-
-    <div id="portada" class="row">
-        <div class='col s6 offset-s3 m6 l2 offset-l5 '>
-            <div class='card '>
-                <div class='card-image'>
-                    <img id="img-user" src='assets/images/user.jpg'>
-                </div>
+      </nav>
+      <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+                <h1 class="text_h center header cd-headline letters type">
+                    <span>Lo más</span>
+                    <span class="cd-words-wrapper waiting">
+                        <b class="is-visible">popular</b>
+                        <b>interesante</b>
+                        <b>developing</b>
+                    </span>
+                </h1>
             </div>
         </div>
+    <div id="portada" class="row">
+            <iframe width="100%" height="515" src="https://www.youtube.com/embed/Q4_ex7a9ZcY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
     <div id="content" class="row">
             <div class="card">
@@ -92,7 +91,34 @@
                       </ul>
                     </div>
                     <div class="card-content grey lighten-4">
-                      <div id="test4">Vistas</div>
+                      <div id="test4">
+                          <div class="row">
+                            <!--card01-->
+                            <div class="col s12 m4">
+                              <div class="card z-depth-2">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                  <img class="activator" src="assets/images/portada01.jpg">
+                                </div>
+                                <div class="card-content">
+                                  <span class="card-title activator grey-text text-darken-4">EL PASAJERO
+                                    <i class="material-icons right">more_vert</i>
+                                  </span>
+                                  <p>
+                                    <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+                                  </p>
+                                </div>
+                                <div class="card-reveal">
+                                  <span class="card-title grey-text text-darken-4">EL PASAJERO
+                                    <i class="material-icons right">close</i>
+                                  </span>
+                                  <p>Durante su trayecto habitual de vuelta a casa en tren, un hombre de negocios, de pronto entabla conversación
+                                    con una misteriosa pasajera.Pronto el hombre se verá envuelto en una conspiración criminal que amenaza con
+                                    poner en peligro tanto su vida como la de sus seres más cercanos.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        </div>
                       <div id="test5">Favoritas</div>
                     </div>
                   </div>
@@ -134,12 +160,27 @@
 
     <!--Import jQuery-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyASY0eS-qMvg_J705gm6DIXpOBikLZNupM",
+        authDomain: "cinela-5cffe.firebaseapp.com",
+        databaseURL: "https://cinela-5cffe.firebaseio.com",
+        projectId: "cinela-5cffe",
+        storageBucket: "cinela-5cffe.appspot.com",
+        messagingSenderId: "339188912496"
+    };
+    firebase.initializeApp(config);
+    </script>
     <!--Import JS-->
-    <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
-    <script type="text/javascript" src="vendors/materialize/js/init.js"></script>
+    <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../vendors/materialize/js/init.js"></script>
     <script src="js/app.js"></script>
     <script src="js/app2.js"></script>
     <script src="js/letters.js"></script>
+    <script src="../vendors/plugins/plugin-min.js"></script>
+    <script src="../vendors/plugins/custom-min.js"></script>
 
 </body>
 

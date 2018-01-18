@@ -221,16 +221,23 @@ footer.page-footer {
   text-align: center;
 }
 
-.logo-cinela {
-  height: 90px;
+.logo-cinela{
+  width: 280px;
+  margin-top: 0%;
+  height: 60px;
+  margin-left: -25%;
+}
+nav .nav-wrapper{
+  height: 91.9px;
 }
 
 #portada {
-  height: 320px;
+  height: 520px;
   width: 100%;
-  background-image: url('../assets/images/portada.jpg');
-  background-size: cover;
-  background-position: 10%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 
 #portada h3 {
@@ -239,4 +246,18 @@ footer.page-footer {
 
 body .row {
   margin-bottom: 0px;
+}
+
+.btn-sign a {
+  width: 100%;
+}
+
+#img-user {
+  width: 55px;
+  border-radius: 100px;
+  margin-top: 5px;
+}
+
+nav {
+  z-index: 9999;
 }
