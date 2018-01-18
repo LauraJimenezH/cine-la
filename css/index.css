@@ -7,13 +7,23 @@
 	background-color:#C2BDBD;
 }
 .nav-wrapper ul li{
-	display:inline-block;
+    display:inline-block;
+    padding: 0px 35px;
+}
+
+nav {
+    background-color: #000;
 }
 
 .nav-wrapper
 {
 	text-align:center;
 }
+
+.logo-cinela {
+    height: 90px;
+}
+
 .ourTeam
 {
 	 -webkit-box-sizing: content-box;
@@ -195,5 +205,23 @@
 }
 footer.page-footer
 {
+    bottom: 0px;
+    width: 100%;
 	background-color:#ab47bc ;
+}
+
+#portada {
+    height: 320px;
+    width: 100%;
+    background-image: url('../assets/images/portada.jpg');
+    background-size: cover;
+    background-position: 10%;
+}
+
+#portada h3 {
+    display: block;
+}
+
+body .row {
+    margin-bottom: 0px;
 }
