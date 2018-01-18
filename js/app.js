@@ -1,10 +1,24 @@
-$(document).ready(() => {
+$(document).ready(function () {
+  //Slider, parallax, menu hamburguesa
+  $('.slider').slider();
+  $(".button-collapse").sideNav();
+  $('.parallax').parallax();
+  });
+  
+  $('.head-link').click(function (e) {
+    e.preventDefault();
+
+    var goto = $(this).attr('href');
+
+    $('html, body').animate({
+      scrollTop: $(goto).offset().top
+    }, 800);
+
   $('#searchForm').on('submit', (e) => {
     var searchText = $('#searchText').val();
     getMovies(searchText);
     e.preventDefault();
   });
-
 });
 
 function getMovies(searchText) {
