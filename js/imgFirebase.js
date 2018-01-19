@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
   // alert('funciona');
-  var tablaDeBaseDatos = firebase.database().ref('Favoritos');
+  var tablaDeBaseDatos = firebase.database().ref('favoritos');
   $('.firebase').click(function() {
     // alert('funcionando');
     if (this.files && this.files[0]) {
@@ -21,6 +21,7 @@ window.addEventListener('load', function() {
     $('#divImageneS').html(''); // Limpiamos el contenedor de imagenes
     snapshot.forEach(function(event) {
       console.log(event);
+      
       var objeto = event.val();
       if (objeto.url !== null) {
         // Agregamos las imagenes que se encuentran en la base de datos
