@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
   // alert('funciona');
-  var tablaDeBaseDatos = firebase.database().ref('movie');
-  $('.INPUT').change(function() {
+  var tablaDeBaseDatos = firebase.database().ref('Favoritos');
+  $('.firebase').click(function() {
     // alert('funcionando');
     if (this.files && this.files[0]) {
       var archivo = new FileReader();
