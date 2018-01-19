@@ -1,14 +1,53 @@
-#movies img, #movie img{
-  width:100%;
+
+@media(min-width:0px){
+.logo-cinela{
+  width: 80px;
+  margin-top: 0%;
+  height: 30px;
 }
-.bodyMovies{
-    background-color: hsla(0, 0%, 0%, 0.603);
+.search{
+  margin-top: 0%;
+  color: white;
+  
 }
 
-@media(min-width:960px){
+.well{
+  margin-top: 8%;
+  width: 280px;
+  height: 550px;
+  background-color: beige;
+  text-align: center;
+}
+.imgSize{
+  width: 280px;
+}
+
+.modal-content{
+  color:white;
+}
+
+input[type=search] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  width: 60%;
+  background:inherit;
+  color: white;
+}
+
+}
+
+@media(min-width:600px){
    
 body{
   font-family:  Roboto,  sans-serif;
+}
+.logo-cinela{
+  width: 280px;
+  margin-top: 0%;
+  height: 60px;
+  margin-left: 5%;
 }
 
 .page-footer{
@@ -89,6 +128,8 @@ body{
 
 .search{
   margin-top: 40%;
+  color: white;
+  font-size: 30px;
 }
  
 .well{
@@ -105,11 +146,15 @@ body{
   width:300px;
 }
     
-	
-.buttonInfo{
-  margin-top: 15px;
+.modal-trigger{
+  margin-top:13%;
   background-color: brown;
-  }
+}
+
+.modal-content{
+  color:white;
+}
+
 
 input[type=search] {
   appearance: none;
@@ -119,10 +164,6 @@ input[type=search] {
   height: 30px;
   width: 200px;
   background:inherit;
-  color: white;
-}
-
-.search{
   color: white;
 }
 

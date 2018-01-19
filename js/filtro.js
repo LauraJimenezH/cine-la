@@ -14,9 +14,10 @@ function getMovies(searchText) {
       let output = '';
       $.each(movies, (index, movie) => {
         output += `
-          <div class="col m4 contImage">
+          <div class="col m4 s12 contImage">
             <div  class="well text-center hoverable " >
               <img class="imgSize"  src="${movie.Poster}">
+              <i class="add"></i>
               <h5 class=" center-align">${movie.Title}</h5>
               <a onclick="movieSelected('${movie.imdbID}')" class=" waves-effect waves-light btn modal-trigger" href="#modal1">Movie Details</a>
               </div>
@@ -33,7 +34,7 @@ function getMovies(searchText) {
 
 function movieSelected(id) {
   sessionStorage.setItem('movieId', id);
-  /* window.location = 'movie.html';*/
+  /*window.location = 'movie.html';*/
   let movieId = sessionStorage.getItem('movieId');
 
   axios.get('http://www.omdbapi.com?i=' + movieId + '&apikey=87651d90&type=movie')
