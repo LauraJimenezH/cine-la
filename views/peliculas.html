@@ -12,7 +12,11 @@
 </head>
 
 <body class="   #00695c teal darken-3">
-          
+  <div class="row black title">
+    <!--Logo-->
+    <div class="col s12 m12">
+        
+    </div>
     <!--Menu-->
     <nav class="black">
       <div class="nav-wrapper">
@@ -50,6 +54,7 @@
         </ul>
       </div>
     </nav>
+  </div>
 
   <div class="content-all">
     <div class="content-carrousel">
@@ -98,50 +103,45 @@
       <h3 class="center-align  search">Search For Any Movie</h3>
       <br>
       <br>
-      <br>
-      <br>
       <form id="searchForm">
         <input type="search" class="form-control " id="searchText" name="" placeholder="Search Movie...">
       </form>
     </div>
   </div>
-
   <div class="container row">
     <div id="movies" class="col m12"></div>
   </div>
-  <br>
-  <br>
-  <div id="modal1" class="modal bottom-sheet">
-    <div class="modal-content">
-      <h4>${movie.Title}</h4>
-      <ul class="list-group">
-        <li class="list-group-item">
-          <strong>Genre:</strong> ${movie.Genre}</li>
-        <li class="list-group-item">
-          <strong>Released:</strong> ${movie.Released}</li>
-        <li class="list-group-item">
-          <strong>Rated:</strong> ${movie.Rated}</li>
-        <li class="list-group-item">
-          <strong>IMDB Rating:</strong> ${movie.imdbRating}</li>
-        <li class="list-group-item">
-          <strong>Director:</strong> ${movie.Director}</li>
-        <li class="list-group-item">
-          <strong>Writer:</strong> ${movie.Writer}</li>
-        <li class="list-group-item">
-          <strong>Actors:</strong> ${movie.Actors}</li>
-      </ul>
-
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+  <div class="container row">
+    <div id="movies-modal" class="col m8">
+      <div id="modal1" class="modal ">
+        <div class="modal-content">
+          <h4></h4>
+          <ul class="list-group">
+            <li class="list-group-item" >
+              <strong>Genero:</strong><p id="peli-genero"></p></li>
+            <li class="list-group-item">
+              <strong>Released:</strong><p id="peli-Released"></p></li>
+            <li class="list-group-item">
+              <strong>Rated:</strong> <p id="peli-Rated"></p></li>
+            <li class="list-group-item">
+              <strong>IMDB Rating:</strong> <p id="peli-Rating"></p></li>
+            <li class="list-group-item">
+              <strong>Director:</strong> <p id="peli-Director"></p></li>
+            <li class="list-group-item">
+              <strong>Writer:</strong> <p id="peli-Writer"></p></li>
+            <li class="list-group-item">
+              <strong>Year:</strong> <p id="peli-Year"></p></li>
+          </ul>
+          </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+      </div>
     </div>
   </div>
-
-  <br>
-
   <footer class="page-footer">
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container center-align">
         © 2014 Copyright Text
         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
@@ -154,7 +154,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="../js/filtro.js"></script>
-  <script src="../js/carousel.js"></script>
+  <script src="../js/modal.js"></script>
 
 </body>
 
