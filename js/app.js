@@ -1,18 +1,18 @@
-$(document).ready(function () {
-  //Slider, parallax, menu hamburguesa
+$(document).ready(function() {
+  // Slider, parallax, menu hamburguesa
   $('.slider').slider();
-  $(".button-collapse").sideNav();
+  $('.button-collapse').sideNav();
   $('.parallax').parallax();
-  });
+});
   
-  $('.head-link').click(function (e) {
-    e.preventDefault();
+$('.head-link').click(function(e) {
+  e.preventDefault();
 
-    var goto = $(this).attr('href');
+  var goto = $(this).attr('href');
 
-    $('html, body').animate({
-      scrollTop: $(goto).offset().top
-    }, 800);
+  $('html, body').animate({
+    scrollTop: $(goto).offset().top
+  }, 800);
 
   $('#searchForm').on('submit', (e) => {
     var searchText = $('#searchText').val();
@@ -71,7 +71,7 @@ function getMovies(searchText) {
 
 function movieSelected(id) {
   sessionStorage.setItem('movieId', id);
-  movieSelected.attr( "href", "#modal1" );
+  movieSelected.attr('href', '#modal1');
   return false;
 }
 
@@ -82,7 +82,7 @@ function getMovie() {
     .then((response) => {
       console.log(response);
       let movie = response.data;
-      /*if((response.Poster).val()='N/A'){
+      /* if((response.Poster).val()='N/A'){
         (response.Poster).val()=`<img  src="../assets/images/dia02/no_image.png"> </img>`
       }*/
 

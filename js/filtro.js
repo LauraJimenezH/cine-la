@@ -33,7 +33,7 @@ function getMovies(searchText) {
 
 function movieSelected(id) {
   sessionStorage.setItem('movieId', id);
-  /*window.location = 'movie.html';*/
+  /* window.location = 'movie.html';*/
   let movieId = sessionStorage.getItem('movieId');
 
   axios.get('http://www.omdbapi.com?i=' + movieId + '&apikey=87651d90&type=movie')
