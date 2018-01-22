@@ -38,6 +38,10 @@ nav ul a:hover {
 
 
 /*CAROUSEL*/
+
+.size-carousel {
+  height: 100vh !important;
+}
 .slider ul.indicators li.indicator-item.active {
   background-color: #00695c !important;
 }
