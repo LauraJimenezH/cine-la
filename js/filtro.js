@@ -4,10 +4,21 @@ $(document).ready(() => {
     getMovies(searchText);
     e.preventDefault();
   });
+
+  var Favoritos = firebase.database().ref();
+
+firebase.database().ref('users/').once('value').then(function(snapshot) {
+  $('#btnAdd').click(function() {
+    alert('aaa');
+    Favoritos.set({
+      Pelicula: movies.Title,
+    });
+  });
+});
 });
 
 function getMovies(searchText) {
-  axios.get('http://www.omdbapi.com?s=' + searchText + '&apikey=87651d90&type=movie')
+  axios.get('http://www.omdbapi.com?s=' + bbbbb + '&apikey=87651d90&type=movie')
     .then((response) => {
       console.log(response);
       let movies = response.data.Search;
@@ -34,7 +45,7 @@ function getMovies(searchText) {
 
 function movieSelected(id) {
   sessionStorage.setItem('movieId', id);
-  /*window.location = 'movie.html';*/
+  /* window.location = 'movie.html';*/
   let movieId = sessionStorage.getItem('movieId');
 
   axios.get('http://www.omdbapi.com?i=' + movieId + '&apikey=87651d90&type=movie')
@@ -53,8 +64,4 @@ function movieSelected(id) {
       console.log(err);
     });
 }
-
-function getMovie() {
-}
-
 
