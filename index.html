@@ -16,44 +16,56 @@
   <!--CSS-->
   <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="vendors/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
-
+  <link href="../vendors/plugins/plugin-min.css" type="text/css" rel="stylesheet">
   <title>Cine-la</title>
 </head>
 
 <body>
   <!--Header-->
-  <div class="row black title">
+  <div class="row black ">
     <!--Logo y Menu-->
     <nav class="row black nav-index">
-      <div class="col s6 m6 l6">
+      <div class="col s6 m6 l3">
         <a href="#">
-          <img src="assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
-        </a> 
+          <img src="../assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
+        </a>
       </div>
-      <div class="col s6 m6 l6 nav-wrapper">
+      <div class="col s3 m6 l9 nav-wrapper">
         <a href="#" data-activates="mobile-demo" class="button-collapse">
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a class="head-link" href="#home">Inicio</a>
+            <a class="head-link" href="../index.html">Inicio</a>
           </li>
           <li>
-            <a class="head-link" href="views/peliculas.html">Películas</a>
+            <a class="head-link" href="peliculas.html">Películas</a>
           </li>
           <li>
-            <a class="head-link" href="views/profile.html">Suscribirse</a>
+            <a class="head-link" href="profile.html">Suscribirse</a>
+          </li>
+          <li>
+            <img id="img-user" src='../assets/images/user.jpg'>
+          </li>
+          <li id="btn-salir">
+              <i class="material-icons">exit_to_app</i>
           </li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li>
-            <a class="head-link" href="#home">Inicio</a>
+            <a class="head-link" href="../index.html">Inicio</a>
           </li>
           <li>
-            <a class="head-link" href="#movies">Películas</a>
+            <a class="head-link" href="peliculas.html">Películas</a>
           </li>
           <li>
-            <a class="head-link" href="#sucription">Suscribirse</a>
+            <a class="head-link" href="profile.html">Suscribirse</a>
+          </li>
+          <li>
+            <img id="img-user" src='../assets/images/user.jpg'>
+          </li>
+          <li id="btn-salir">
+              <i class="material-icons">exit_to_app</i>
           </li>
         </ul>
       </div>
@@ -280,7 +292,7 @@
       </li>
       <li class="items back-pos" id="4"><iframe width="854" height="480" src="https://www.youtube.com/embed/VilLIvqFvME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
       <li class="items back-pos" id="5">
-        <iframe width="500" height="281" src="https://www.youtube.com/embed/6bkASD4Ihuc?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <iframe width="500" height="281" src="https://www.youtube.com/embed/6bkASD4Ihuc" frameborder="0" allowfullscreen></iframe>
       </li>
       <li class="items back-pos" id="6">
         <iframe width="854" height="480" src="https://www.youtube.com/embed/xixVH-uaNq4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
