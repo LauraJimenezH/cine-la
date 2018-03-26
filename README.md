@@ -2,11 +2,9 @@
 
 Cine-la es una plataforma web que brinda una informaciond de peliculas y un sector para los fans de todo tipo.
 
-![resultado](http://i63.tinypic.com/15zr1u0.png)
-
 ### ¿Para qué sirve?
 Sirve para mejor experiencia y facil busqueda de peliculas y opcion ver por varios dias una saga de lo que mas guste a fans de distintos tipos de gustos.
-### ¿Cómo decidieron por ese producto / cómo validaron la idea?
+### ¿Cómo decidieron por ese producto / cómo validaron la idea?z
 Fue echo por investigaciones y cotar experiencias para poder tener un tema definido.
 ### ¿Cómo se organizaron / dividieron el trabajo?
 #### 1. Flujo de Trabajo:
